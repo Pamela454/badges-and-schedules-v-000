@@ -10,6 +10,6 @@ attendees.map do |attendee|
 end
 end
 
-def assign_rooms()
+def assign_rooms(speakers)
 return "Hello, #{name} You'll be assigned to room 1!"
 end
