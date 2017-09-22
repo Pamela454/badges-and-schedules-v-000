@@ -9,7 +9,7 @@ attendees.map do |attendee|
 end
 end
 
-def assign_rooms(speaker, room)
-
+def assign_rooms(attendees)
+attendees.each_with_index.map do |attendee, index|
 return "Hello, #{speaker} You'll be assigned to #{room}!"
 end
