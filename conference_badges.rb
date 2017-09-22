@@ -11,5 +11,5 @@ end
 end
 
 def assign_rooms(speakers)
-return "Hello, #{name} You'll be assigned to room 1!"
+return "Hello, #{name} You'll be assigned to #{room}!"
 end
