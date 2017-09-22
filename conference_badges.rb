@@ -1,2 +1,2 @@
 # Write your code here.
-badge_maker(name)
+def badge_maker(name)
