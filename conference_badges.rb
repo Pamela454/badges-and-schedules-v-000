@@ -10,3 +10,4 @@ attendees.map do |attendee|
 end
 end
 
+def assign_rooms()
