@@ -16,5 +16,5 @@ end
 end
 
 def print(attendees)
-badges_and_room_assignments
+badges_and_room_assignments.map do 
 end
