@@ -16,6 +16,6 @@ end
 end
 
 def printer(attendees)
-badges_and_room_assignments.map
-print
+batch_badge_creator(attendees).each do |badge|
+  puts badge 
 end
