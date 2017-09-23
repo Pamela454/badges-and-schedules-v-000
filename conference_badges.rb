@@ -15,7 +15,7 @@ attendees.each_with_index.map do |attendee, index|
 end
 end
 
-def print(attendees)
+def printer(attendees)
 badges_and_room_assignments.map
 print
 end
